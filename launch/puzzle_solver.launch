@@ -1,0 +1,4 @@
+<launch>
+  <node name="solver_node" pkg="nirandidan" type="puzzle_solver.py" output="screen" ns="/iiwa"/>
+
+</launch>

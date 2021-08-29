@@ -1,0 +1,4 @@
+<launch>
+  <node name="example_node" pkg="nirandidan" type="camera_capture.py" output="screen" ns="/iiwa"/>
+
+</launch>

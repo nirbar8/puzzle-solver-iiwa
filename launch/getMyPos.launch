@@ -1,0 +1,4 @@
+<launch>
+  <node name="getMyPos_node" pkg="nirandidan" type="get_my_pos.py" output="screen" ns="/iiwa"/>
+
+</launch>
