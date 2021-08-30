@@ -44,10 +44,13 @@ class RobotController:
     def go_to_home(self):
         self._go_to_pose(data.coord['home_pos'])
 
-    def take_puzzle_picture(self):
-        self._go_to_pose(data.coord['cam_pos'])
+    def take_puzzle_picture(self, position_coord='cam_pos', image_path=''):
+        self._go_to_pose(data.coord[position_coord])
         rospy.loginfo('taking a snapshot from camera')
-        camera_capture.snapshot()  # calling other module to take a pic from usb camera
+        if image_path == '':
+            camera_capture.snapshot()
+        else:
+            camera_capture.snapshot(image_path)
 
     @staticmethod
     def point_to_physical_coordinates(point):
@@ -93,14 +96,17 @@ class RobotController:
                           "\nrotate: " + str(rotation_angle / (np.pi / 180)) + "\n")
 
             # Fetching the piece
-            goal = centroid_coord + [data.Z_SUCTION + 0.3] + data.SUCTION_ORIENTATION
+            goal = centroid_coord + [data.Z_SUCTION + 0.4] + data.SUCTION_ORIENTATION
+            self._go_to_pose(goal)
+            rospy.sleep(0.5)
+            goal[2] = data.Z_SUCTION + 0.1
             self._go_to_pose(goal)
             rospy.sleep(0.5)
             goal[2] = data.Z_SUCTION
             self._go_to_pose(goal)
             rospy.sleep(0.5)
             self.suction_on()
-            goal[2] = data.Z_SUCTION + 0.1
+            goal[2] = data.Z_SUCTION + 0.3
             self._go_to_pose(goal)
             rospy.sleep(0.5)
 
@@ -128,8 +134,15 @@ class RobotController:
             rospy.sleep(0.5)
 
             goal1 = self._group.get_current_pose().pose
+            goal1.position.z = data.Z_SUCTION + 0.07
+            self._group.set_pose_target(goal1)
+            self._group.go(wait=True)
+            self._group.stop()
+            self._group.clear_pose_targets()
+            rospy.sleep(0.5)
 
-            goal1.position.z = data.Z_SUCTION
+            goal1 = self._group.get_current_pose().pose
+            goal1.position.z = data.Z_SUCTION + 0.02
             self._group.set_pose_target(goal1)
             self._group.go(wait=True)
             self._group.stop()
@@ -138,6 +151,14 @@ class RobotController:
 
             self.suction_off()
 
-            goal[2] = data.Z_SUCTION + 0.3
+            goal1 = self._group.get_current_pose().pose
+            goal1.position.z = data.Z_SUCTION + 0.07
+            self._group.set_pose_target(goal1)
+            self._group.go(wait=True)
+            self._group.stop()
+            self._group.clear_pose_targets()
+            rospy.sleep(0.5)
+
+            goal[2] = data.Z_SUCTION + 0.4
             self._go_to_pose(goal)
             rospy.sleep(0.5)

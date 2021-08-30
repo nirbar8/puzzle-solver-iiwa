@@ -55,12 +55,13 @@ def wait_for_solver_results():
 	while not os.path.exists(data.RESULT_PIECES_PATH):
 		print("waiting for results file...")
 		time.sleep(2)
+	time.sleep(5)  # waiting for solver to fill the results file
 
 
 def main():
 	controller, publisher = init_ros()
 	rospy.sleep(5)
-	controller.take_puzzle_picture()
+	controller.take_puzzle_picture(position_coord='cam_pos')
 	rospy.sleep(1)
 	shape_detection.detect_shapes('snapshot.jpg', data.INPUT_PIECES_PATH)
 	rospy.sleep(1)
@@ -77,6 +78,7 @@ def main():
 	rospy.wait_for_service('/iiwa/piface')  # required for suction of pieces
 	controller.assemble_puzzle(pieces, result_pieces)
 	rospy.sleep(5)
+	controller.take_puzzle_picture(position_coord='final_cam_pos', image_path='final.jpg')
 	rospy.loginfo("deleting csv files...")
 	os.remove(data.INPUT_PIECES_PATH)
 	os.remove(data.RESULT_PIECES_PATH)

@@ -4,7 +4,14 @@
     <bookmark url="file://$PROJECT_DIR$/scripts/puzzle_solving/puzzle_solver.py" line="49" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="094cd27a-92d8-457d-9d90-f357f53c695d" name="Default" comment="" />
+    <list default="true" id="094cd27a-92d8-457d-9d90-f357f53c695d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/example.py" afterPath="$PROJECT_DIR$/scripts/example.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/puzzle_solving/data.py" afterPath="$PROJECT_DIR$/scripts/puzzle_solving/data.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/puzzle_solving/puzzle_solver.py" afterPath="$PROJECT_DIR$/scripts/puzzle_solving/puzzle_solver.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/puzzle_solving/robot_controller.py" afterPath="$PROJECT_DIR$/scripts/puzzle_solving/robot_controller.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/scripts/puzzle_solving/shape_detection.py" afterPath="$PROJECT_DIR$/scripts/puzzle_solving/shape_detection.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,20 +31,8 @@
       <file leaf-file-name="robot_controller.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/robot_controller.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-890">
-              <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="piecesVertices.csv" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/piecesVertices.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+            <state relative-caret-position="669">
+              <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -46,8 +41,8 @@
       <file leaf-file-name="example.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/example.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
+            <state relative-caret-position="-582">
+              <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -56,8 +51,8 @@
       <file leaf-file-name="shape_detection.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/shape_detection.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="377">
+              <caret line="21" column="110" lean-forward="false" selection-start-line="21" selection-start-column="110" selection-end-line="21" selection-end-column="110" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -68,8 +63,8 @@
       <file leaf-file-name="data.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/data.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            <state relative-caret-position="609">
+              <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -88,8 +83,8 @@
       <file leaf-file-name="puzzle_solver.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/puzzle_solver.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1378">
-              <caret line="74" column="60" lean-forward="false" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+            <state relative-caret-position="678">
+              <caret line="83" column="38" lean-forward="false" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
               <folding>
                 <element signature="e#23#53#0" expanded="true" />
               </folding>
@@ -127,6 +122,9 @@
       <find>coord</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -146,18 +144,18 @@
         <option value="$PROJECT_DIR$/launch/puzzle_solver.launch" />
         <option value="$PROJECT_DIR$/scripts/puzzle_solving/test.py" />
         <option value="$PROJECT_DIR$/scripts/puzzle_solving/camera_capture.py" />
+        <option value="$PROJECT_DIR$/scripts/example.py" />
+        <option value="$PROJECT_DIR$/scripts/puzzle_solving/data.py" />
         <option value="$PROJECT_DIR$/scripts/puzzle_solving/puzzle_solver.py" />
         <option value="$PROJECT_DIR$/scripts/puzzle_solving/robot_controller.py" />
         <option value="$PROJECT_DIR$/scripts/puzzle_solving/shape_detection.py" />
-        <option value="$PROJECT_DIR$/scripts/example.py" />
-        <option value="$PROJECT_DIR$/scripts/puzzle_solving/data.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="65" />
     <option name="y" value="52" />
-    <option name="width" value="1665" />
+    <option name="width" value="1502" />
     <option name="height" value="1028" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -194,7 +192,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -256,6 +253,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -552,26 +550,26 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="65" y="52" width="1665" height="1028" extended-state="5" />
-    <editor active="true" />
+    <frame x="65" y="52" width="1502" height="1028" extended-state="4" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17657657" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20372836" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20209424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3743642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20209424" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32858595" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3743642" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -611,9 +609,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="7" column="29" lean-forward="false" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="e#23#33#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -657,7 +653,7 @@
         <state relative-caret-position="651">
           <caret line="42" column="51" lean-forward="false" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -694,7 +690,7 @@
         <state relative-caret-position="966">
           <caret line="55" column="45" lean-forward="true" selection-start-line="55" selection-start-column="45" selection-end-line="55" selection-end-column="45" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -731,7 +727,7 @@
         <state relative-caret-position="777">
           <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -775,7 +771,7 @@
         <state relative-caret-position="306">
           <caret line="25" column="0" lean-forward="true" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
           <folding>
-            <element signature="e#0#35#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -845,13 +841,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/pRes.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/pRes.csv" />
     <entry file="file://$PROJECT_DIR$/CMakeLists.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="63">
@@ -867,59 +857,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving updates/puzzle_solving idan/puzzle_solving/camera_capture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving updates/puzzle_solving idan/puzzle_solving/coord">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving updates/puzzle_solving idan/puzzle_solving/puzzle_solver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving updates/puzzle_solving idan/puzzle_solving/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="840">
-          <caret line="43" column="7" lean-forward="true" selection-start-line="43" selection-start-column="7" selection-end-line="43" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving updates/puzzle_solving idan/puzzle_solving/camera_capture.py" />
+    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving updates/puzzle_solving idan/puzzle_solving/coord" />
+    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving updates/puzzle_solving idan/puzzle_solving/puzzle_solver.py" />
+    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving updates/puzzle_solving idan/puzzle_solving/utils.py" />
     <entry file="file://$PROJECT_DIR$/launch/puzzle_solver.launch">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/coord">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="798">
-          <caret line="38" column="14" lean-forward="false" selection-start-line="38" selection-start-column="7" selection-end-line="38" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/coord" />
     <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/utils.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="911">
           <caret line="75" column="0" lean-forward="true" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -927,15 +880,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/snapshot.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/snapshot.jpg" />
     <entry file="file://$USER_HOME$/.PyCharmCE2016.3/system/python_stubs/-1247972723/cv2/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="433">
@@ -952,14 +900,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/piecesVertices.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/piecesVertices.csv" />
     <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/camera_capture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -968,10 +909,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/example.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-582">
+          <caret line="11" column="26" lean-forward="false" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/puzzle_solver.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1378">
-          <caret line="74" column="60" lean-forward="false" selection-start-line="74" selection-start-column="60" selection-end-line="74" selection-end-column="60" />
+        <state relative-caret-position="678">
+          <caret line="83" column="38" lean-forward="false" selection-start-line="83" selection-start-column="38" selection-end-line="83" selection-end-column="38" />
           <folding>
             <element signature="e#23#53#0" expanded="true" />
           </folding>
@@ -980,34 +937,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/robot_controller.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-890">
-          <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="59" selection-end-line="25" selection-end-column="59" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/example.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="11" column="25" lean-forward="false" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="25" lean-forward="false" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="669">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/puzzle_solving/shape_detection.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="377">
+          <caret line="21" column="110" lean-forward="false" selection-start-line="21" selection-start-column="110" selection-end-line="21" selection-end-column="110" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>

@@ -19,7 +19,7 @@ def draw_polygons(polygons=[], image_path=('polygons' + str(random.randint(1, 10
 	cv2.destroyAllWindows()
 
 
-def detect_shapes(img_path, output_csv_path='piecesVertices.csv', thresh_range=(90, 255), approx_epsilon=0.018):
+def detect_shapes(img_path, output_csv_path='piecesVertices.csv', thresh_range=(80, 255), approx_epsilon=0.017):
 	img = cv2.imread(img_path)
 	img = cv2.GaussianBlur(img, (1, 1), 0)
 	img = cv2.resize(img, data.IMAGE_RESOLUTION)
@@ -27,12 +27,12 @@ def detect_shapes(img_path, output_csv_path='piecesVertices.csv', thresh_range=(
 	img_hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
 
 	# lower mask (0-10)
-	lower_red = np.array([0, 50, 50])
+	lower_red = np.array([0, 40, 40])
 	upper_red = np.array([20, 255, 255])
 	mask0 = cv2.inRange(img_hsv, lower_red, upper_red)
 
 	# upper mask (170-180)
-	lower_red = np.array([160, 50, 50])
+	lower_red = np.array([160, 40, 40])
 	upper_red = np.array([180, 255, 255])
 	mask1 = cv2.inRange(img_hsv, lower_red, upper_red)
 
@@ -66,7 +66,7 @@ def detect_shapes(img_path, output_csv_path='piecesVertices.csv', thresh_range=(
 			approx = cv2.approxPolyDP(contour, approx_epsilon * cv2.arcLength(contour, closed=True), closed=True)
 			approx_int = [[int(point[0][0]), int(point[0][1])] for point in approx]
 			approx_area = cv2.contourArea(np.array(approx_int))
-			if approx_area < 500:
+			if approx_area < 700:
 				continue
 
 			print(len(approx))
